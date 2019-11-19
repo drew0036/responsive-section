@@ -27,18 +27,17 @@ body {
 }
 
 section {
-  padding: 1rem;
   background-color: #e5c30a;
 }
 
 section h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0 1.3rem 1.3rem;
+  margin: 0;
 }
 
 section p {
-  margin: 0 1.3rem 1.3rem;
+  margin: 0;
 }
 
 .section-icon {
@@ -52,11 +51,13 @@ section p {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  max-width: 45em;
+  margin: 0;
+  padding: 1.3rem;
 }
 
 .section-body {
   width: 100%;
-  bottom: 0;
   order: 3;
 }
 
