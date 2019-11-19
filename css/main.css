@@ -27,34 +27,45 @@ body {
 }
 
 section {
-  background-color: #e5c30a;
-  margin: 0;
-}
-
-.wrapper {
-  padding: 1.3rem;
-  max-width: 45em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-body {
   display: block;
-  clear: both;
-  order: 3;
+  padding: 1rem;
+  background-color: #e5c30a;
+  position: relative;
 }
 
 section h2 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0 0 1.3rem;
+  margin: 0 1.3rem 1.3rem;
 }
 
 section p {
-  margin: 0 0 1.3rem;
+  margin: 0 1.3rem 1.3rem;
 }
+
+.section-icon {
+
+}
+
+.section-letter {
+
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: 45em;
+}
+
+.section-body {
+  position: absolute;
+  bottom: 0;
+  order: 3;
+}
+
 
 @media only screen and (min-width: 25em) {
 
