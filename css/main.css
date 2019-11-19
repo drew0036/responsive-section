@@ -27,10 +27,8 @@ body {
 }
 
 section {
-  /* display: flex; */
   padding: 1rem;
   background-color: #e5c30a;
-  position: relative;
 }
 
 section h2 {
@@ -44,24 +42,20 @@ section p {
 }
 
 .section-icon {
-  width: 100%;
+  width: 50%;
 }
 
 .section-letter {
-  width: 100%;
+  width: 50%;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center;
-  align-items: center;
-  margin: 0;
-  max-width: 45em; */
 }
 
 .section-body {
-  position: absolute;
+  width: 100%;
   bottom: 0;
   order: 3;
 }
