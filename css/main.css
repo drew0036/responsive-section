@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  display: block;
+  /* display: flex; */
   padding: 1rem;
   background-color: #e5c30a;
   position: relative;
@@ -44,20 +44,20 @@ section p {
 }
 
 .section-icon {
-
+  width: 100%;
 }
 
 .section-letter {
-
+  width: 100%;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
   margin: 0;
-  max-width: 45em;
+  max-width: 45em; */
 }
 
 .section-body {
