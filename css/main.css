@@ -61,7 +61,6 @@ section p {
   order: 3;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   html {
@@ -72,6 +71,18 @@ section p {
   h1,
   p {
     margin: 0 0 1.3rem;
+  }
+
+  .wrapper {
+    justify-content: space-around;
+  }
+
+  .section-letter {
+    width: 40%;
+  }
+
+  .section-icon {
+    width: 40%;
   }
 
 }
@@ -86,6 +97,24 @@ section p {
   h1,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  .wrapper {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .section-body {
+    order: 0;
+  }
+
+  .section-letter {
+    width: 25%;
+  }
+
+  .section-icon {
+    width: 25%;
   }
 
 }
